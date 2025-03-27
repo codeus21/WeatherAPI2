@@ -1,0 +1,44 @@
+body {
+    background-color: hsla(60, 53%, 94%, 0.548);
+}
+#inputForm{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    height: auto;
+    padding: 1.2em;
+}
+.inputs{
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#submitButton{
+    background-color: rgba(0, 255, 0, 0.452);
+    border-radius: 10px;
+    border: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+#submitButton:hover{
+    background-color: rgba(0, 255, 0, 0.747);
+}
+#submitButton:active{
+    background-color: rgb(0, 255, 0);
+}
+#cityInput{
+    border: 3px solid gray;
+    border-radius: 10px;
+}
+#weatherBox{
+    margin:auto;
+    display: none;
+    text-align: center;
+    border:2px solid black;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    background-color: lightblue;
+
+}
